@@ -3,6 +3,8 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'moment': 'vendor/moment/moment.js',
+  'angular2-jwt': 'vendor/angular2-jwt/angular2-jwt.js'
 };
 
 /** User packages configuration. */
