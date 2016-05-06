@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HelpComponent } from './+help';
 import { Routes , ROUTER_DIRECTIVES} from '@angular/router';
+import { Help2Component } from './+help2';
 
 @Component({
   moduleId: module.id,
@@ -10,8 +11,8 @@ import { Routes , ROUTER_DIRECTIVES} from '@angular/router';
   directives: [ROUTER_DIRECTIVES]
 })
 @Routes([
-    { path: '/help', component: HelpComponent },
-    {path: '/help/:id', component: HelpComponent }
+    { path: '/help/:id', component: HelpComponent },
+    { path: '/help', component: Help2Component }
   ])
 export class Page2Component implements OnInit {
 
